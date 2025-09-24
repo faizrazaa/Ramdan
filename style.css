@@ -1,0 +1,99 @@
+body{
+   margin: 100px 0px;
+   padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./⁮image/bgimage.jpeg);
+   background-repeat: no-repeat;
+  
+    background-size: cover;
+}
+#hi{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid black; */
+    /* selector { */
+  -webkit-text-stroke-width: 2px; /* Defines the width of the outline */
+  -webkit-text-stroke-color: black; /* Defines the color of the outline */
+  color: white; /* Sets the fill color of the text (can be transparent or any color) */
+/* } */
+}
+#hi >span{
+    font-size: 5rem;
+    
+}
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: -900px;
+     margin-top: -100px;
+}
+#daytitle{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+      -webkit-text-stroke-width: 1px; /* Defines the width of the outline */
+  -webkit-text-stroke-color:black; /* Defines the color of the outline */
+    margin-bottom: 20px;
+    background-color: rgb(7, 93, 253);
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#Extime{
+    color: rgb(0, 0, 0);
+   margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+      -webkit-text-stroke-width: 1px; /* Defines the width of the outline */
+  -webkit-text-stroke-color:white; /* Defines the color of the outline */
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+       background-color: black;
+      font-size: 1.5rem;
+      border: 1px solid white;
+   
+}
+
+.timecard,.monthdayscard{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+ 
+    
+}
+.seccard{
+    background-color: red;
+}
+.milisecard{
+    background-color: green;
+    width: 200px;
+      opacity: 0.5;
+}
